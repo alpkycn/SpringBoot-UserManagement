@@ -1,2 +1,4 @@
 # SpringBoot-UserManagement
-Dieses Projekt ist eine RESTful-Webanwendung mit Spring Boot, die eine Benutzer- und Abteilungsverwaltung ermöglicht. Es nutzt das Controller-Service-Repository-Pattern zur strukturierten Schichtentrennung und verwendet JWT-Authentifizierung für sicheren Zugriff.
+Dieses Projekt ist eine Spring Boot basierte RESTful-Webanwendung zur Verwaltung von Benutzern, Abteilungen und Mitarbeitern. Es nutzt Spring Security für die Authentifizierung und erstellt beim Login JWT-Tokens (Access- und Refresh-Token).
+
+Die Architektur folgt dem Controller-Service-Repository-Pattern, um eine klare Trennung von Datenzugriff, Geschäftslogik und API-Schicht zu gewährleisten. Die Datenbankanbindung erfolgt über Spring Data JPA und Hibernate.
